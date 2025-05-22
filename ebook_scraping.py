@@ -1,7 +1,7 @@
 import requests as req
 from bs4 import BeautifulSoup as bs
 import regex as re
-import os, random, json
+import os, random
 from time import sleep
 import subprocess
 
