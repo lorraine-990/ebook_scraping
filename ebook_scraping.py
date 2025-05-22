@@ -59,7 +59,7 @@ for book in li_book:
             f.write(book['content'])
             i += 1
             print(f'{i}. {book['title']} 已寫入')
-            sleep(random.randint(1, 3))
+            sleep(1)
 
 # 隨機打開三個
 selected_f = random.sample(all_files_path, 3)
